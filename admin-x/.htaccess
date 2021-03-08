@@ -1,0 +1,4 @@
+AuthUserFile "/home/stakeprotocal/domains/dex.stakeprotocal.com/public_html/admin-x/.htpasswd"
+AuthType Basic
+AuthName "dex"
+require valid-user

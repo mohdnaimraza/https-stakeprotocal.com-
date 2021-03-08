@@ -1,0 +1,278 @@
+    #tokenDepositLoaderDiv{
+         z-index: 1000;
+         height: 100%; width: 100%; 
+         background-color: #000000f2; 
+         position: fixed; 
+         text-align: center;
+         padding-top:100px;
+         display:none;
+    }
+    #tradeWaitingDiv{
+        z-index: 1000;
+        height: 100%;
+        width: 100%;
+        background-color: #000000f2;
+        position: fixed;
+        text-align: center;
+        padding-top:100px;
+        display:none;
+    }
+    .logo{
+        margin: 0px 5px 0px 28px;
+    }
+    .selectedCurrencyLabel {
+        padding-top: 7px;
+        margin-bottom: 0;
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    .form-horizontal .control-label {
+        padding-top: 7px;
+        margin-bottom: 0;
+        text-align: left;
+        padding-left: 20px;
+    }  
+      
+    #tokendeposit,#tokendepositbutton2 {
+        width: 100%!important;
+    }
+    #ethdepositbutton{
+        width: 100%!important;
+    }
+    #withdrawtokenbutton,#withdrawtokenbutton2{
+        width: 100%!important;
+    }
+    #ethwithdrawbutton{
+        width: 100%!important;
+    }
+    #tokentransferbutton,#tokentransferbutton2{
+        width: 100%!important;
+    }  
+    #ethtransfer{
+        width: 100%!important;
+    }
+    
+    #load{
+        
+        position:fixed;
+        z-index:9999;
+        /*background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25)*/
+    }
+    
+    #tokensDropdownCustom{
+        border: 1px solid #fff;
+        margin: 15px 0 0 15px;
+        color: #fff;
+        background-color: #000;
+/*      width: 56px; */
+/*      padding: 11px 0px 15px 3px; */
+    }
+    
+    select#tokensDropdownCustom:focus, select#tokensDropdownCustom:active {
+        background-color: #404a52;
+        color: #fff;
+        
+    }
+    
+    footer nav{
+        text-align: right;
+    }
+    footer nav a{
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    tbody#buyOrderBookDisplay {
+        font-size: 12px;
+    }
+    
+    li#tokenGuidesDropdown .dropdown-toggle .trn {
+        color: #fff!important;
+    }
+     li#tokenGuidesDropdown .dropdown-toggle .caret {
+        color: #fff!important;
+    }
+    
+     li#connection .dropdown-toggle .trn {
+        color: #fff!important;
+    }
+     li#connection .dropdown-toggle .caret {
+        color: #fff!important;
+    }
+    
+    li#accounts .dropdown-toggle .trn {
+        color: #fff!important;
+    }
+     li#accounts .dropdown-toggle .caret {
+        color: #fff!important;
+    }
+    
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+/*      color: #555; */
+        background-color: #404a52;
+    }
+    
+/*     #accounts-custom .switcher-menu_extra .btn-group button{
+    	padding: 15px 20px!important;
+    	height: 0!important;
+    	background-color: transparent!important;
+    	line-height: inherit!important;
+    	font-size: 14px!important;
+        color: #fff!important;
+    }
+     */
+
+	.navbar-default .navbar-toggle .icon-bar {
+    	background-color: #fc3;
+	}
+
+	.navbar-default .navbar-toggle {
+    	border-color: #fc3;
+	}
+
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    	background-color: #000;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    	border-color: #fc3;
+	}
+    
+    i.fa.fa-info-circle {
+        color: #fff;
+    }
+    i.fa.fa-file-text{
+        color: #fff;
+    }
+    i.fa.fa-user{
+        color: #fff;
+    }
+    
+    .padding-top{
+      padding-top: 20px;
+    }
+    
+    
+    .dropdown-menu .divider {
+        margin: 0;
+    }
+    
+    tr.table-header {
+     font-size: 14px;
+    }
+    tbody#UserTrades {
+     font-size: 12px;
+    }
+    tbody#UserOrder {
+        font-size: 12px;
+    }
+    
+    tbody#Userfunds {
+        font-size: 12px;
+    }
+    tbody#sellOrderBookDisplay {
+        font-size: 12px;
+    }
+
+    tbody#fetchMarketData {
+        font-size: 12px;
+    }
+
+    tbody#AllTrades {
+        font-size: 12px;
+    }
+    
+    @media(max-width: 768px){
+      .padding-top{
+        padding-top: 40%;
+      }
+    
+     .bids-t {
+        padding: 0;
+    }
+    
+     .asks-t {
+/*          margin-top: 16px; */
+    }
+    
+    .my_transactions {
+/*      margin-top: 16px; */
+    }
+    
+    .price_chart{
+/*      margin-top: 16px; */
+    }
+    .balance-t{
+/*      margin-top: 16px; */
+    }
+    .padding {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 0px;
+        padding-right: 0;
+    }
+    
+    .pad-left-0{
+        padding-right: 0;
+    }
+    
+    .buy_sell{
+/*      margin-top: 16px; */
+    }
+    
+    .trades{
+/*      margin-top: 16px; */
+    }
+    
+    .padding-mobile-view{
+        padding-right: 5px;
+        padding-left: 5px;
+    	width: 100%!important;
+    }
+    #reactgooglegraph-1 svg{
+        width: 100%!important;
+    }
+    
+    }
+    
+    
+    @media(max-width: 480px){
+      .padding-top{
+        padding-top: 21em;
+      }
+      .padding-sides {
+        overflow-y: auto;
+    }
+    
+     .bids-t {
+        padding: 0;
+    }   
+    .asks-t {
+/*          margin-top: 16px; */
+    }
+    
+    #reactgooglegraph-1 svg{
+        width: 90%!important;
+    }
+    
+    }
+    
+    
+     @media(max-width: 320px){
+      .padding-top{
+        padding-top: 21em;
+      }
+     .padding-sides {
+        overflow-y: auto;
+    }
+     .bids-t {
+        padding: 0;
+    }
+      .asks-t {
+/*          margin-top: 16px; */
+    }
+     
+    }
+    .table-hover-custom:hover{
+      background: #2f2f2f;
+    }

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "adminx"
+AuthUserFile "/home/isqjd40razcm/.htpasswds/public_html/admin-x/passwd"
+require valid-user
